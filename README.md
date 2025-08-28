@@ -78,6 +78,6 @@ plain[length] = '\0'; // Null-terminate the plain text string return 0;
 }
 ~~~
 
-OUTPUT :-
+# OUTPUT :-
 <img width="527" height="327" alt="image" src="https://github.com/user-attachments/assets/968061b4-c349-4742-a9dc-b351b412464f" />
 
