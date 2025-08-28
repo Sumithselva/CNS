@@ -50,7 +50,6 @@ if (isupper(plain[i]) && cipher[i] > 'Z')
 {
 cipher[i]= cipher[i] - 26;
 }
-// Handling lowercase letters
 if (islower(plain[i]) && cipher[i] > 'z')
 {
 cipher[i] = cipher[i] - 26;
@@ -62,12 +61,10 @@ printf("\nDECRYPTED TEXT: ");
 for (i = 0; i < length; i++)
 { 
 plain[i] = cipher[i] - key;
-// Handling uppercase letters
 if (isupper(cipher[i]) && plain[i] < 'A')
 {
 plain[i] = plain[i] + 26;
 }
-// Handling lowercase letters
 if (islower(cipher[i]) && plain[i] < 'a')
 {
 plain[i] = plain[i] + 26;
